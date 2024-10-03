@@ -1,4 +1,10 @@
+import MainDisplay from './components/MainDisplay'
+
 const App = () => {
-  return <div>App</div>
+  return (
+    <div>
+      <MainDisplay />
+    </div>
+  )
 }
 export default App
